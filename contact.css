@@ -1,0 +1,109 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.sec1 {
+    color: #ebeced;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: -3px;
+    margin: 0;
+}
+
+/* start for Contact us */
+.contact {
+    background-color: #f6f6f6;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    height: 720px;
+    position: relative;
+}
+
+.all2 {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.lab1 input {
+    width: 200px;
+    height: 300;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.lab1 ::after {
+    content: "*";
+    color: red;
+}
+
+.lab1 .f2 {
+    font-size: 20px;
+    font-weight: 800px;
+}
+
+.f3 {
+    font-size: 20px;
+    font-weight: 800px;
+}
+
+.textarea {
+    text-align: center;
+}
+
+.zx3 {
+    font-size: 20px;
+    font-weight: 800px;
+}
+
+.zx3 ::after {
+    content: "*";
+    color: red;
+}
+
+.vv {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.mail {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+
+a:link {
+    background-color: #333;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+/* end for Contact us */
